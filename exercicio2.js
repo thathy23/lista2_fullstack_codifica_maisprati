@@ -31,4 +31,5 @@ while (true) {
     console.log(`Parabéns! Você acertou em ${tentativas} tentativas.`)
     break
   }
+  
 }

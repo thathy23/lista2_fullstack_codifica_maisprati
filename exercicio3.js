@@ -19,18 +19,18 @@ function palavrasUnicas(texto) {
       }
   
       if (contador === 1) {
-        unicas.push(palavraAtual);
+        unicas.push(palavraAtual)
       }
     }
   
     // Verifica se o array está vazio
     if (unicas.length === 0) {
-      console.log("Não há palavra única.");
+      console.log("Não há palavra única.")
     } else {
-      console.log("Palavras únicas:", unicas);
+      console.log("Palavras únicas:", unicas)
     }
   
-    return unicas;
+    return unicas
   }  
   
   const frase1 = "olá olá mundo mundo"
